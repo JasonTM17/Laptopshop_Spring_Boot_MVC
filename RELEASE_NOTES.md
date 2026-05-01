@@ -1,5 +1,21 @@
 # Laptopshop Release Notes
 
+## v1.0.2 Visual Portfolio Polish - 2026-05-01
+
+This release tightens the GitHub visual identity after review feedback: the social preview and README hero now use an imagegen ecommerce scene with deterministic typography, project proof points, tech badges, and verification cues.
+
+### Highlights
+
+- Reworked `docs/screenshots/github-social-preview.png` with clear `Laptopshop` title, portfolio role, stack badges, feature cards, and CI/test proof.
+- Reworked upload-ready `docs/screenshots/github-social-preview.jpg` under GitHub's 1 MB social preview upload limit.
+- Reworked `docs/screenshots/github-hero.png` for the README first viewport with stronger typography and clearer project scope.
+- Kept all text deterministic through local overlay instead of model-rendered text, avoiding misspellings and clipped labels.
+
+### Verification
+
+- Visual QA checked for clipped text, readable badge labels, and balanced GitHub preview framing.
+- No runtime behavior changed; this release is repo presentation and portfolio metadata only.
+
 ## v1.0.1 Portfolio Polish - 2026-05-01
 
 This release focuses on the GitHub portfolio presentation: a recruiter-first README, safer GitHub hero artwork, concise repository metadata, updated social-preview asset, protected default branch, and a fresh source release target.
@@ -11,7 +27,7 @@ This release focuses on the GitHub portfolio presentation: a recruiter-first REA
 - New imagegen-based `docs/screenshots/github-social-preview.jpg` asset prepared for repository social preview under GitHub's 1 MB upload limit.
 - Repository identity standardized as `laptopshop-spring-boot-mvc`.
 - GitHub Container Registry publishing added for `ghcr.io/jasontm17/laptopshop-spring-boot-mvc`.
-- Release/checklist docs updated for `v1.0.1 Portfolio Polish`.
+- Release/checklist docs updated for `v1.0.2 Visual Portfolio Polish`.
 
 ### Verification
 
@@ -28,7 +44,7 @@ GitHub verification targets:
 - GitHub Packages shows the GHCR container package.
 - Branch protection is enabled for `master` with the `Test and package` status check.
 - Open pull request count is `0`.
-- Latest release is `Laptopshop v1.0.1 Portfolio Polish`.
+- Latest release is `Laptopshop v1.0.2 Visual Portfolio Polish`.
 
 ### Known Limits
 

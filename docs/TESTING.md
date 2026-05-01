@@ -76,7 +76,7 @@ Check:
 
 ## Release Smoke Evidence
 
-For the v1.0.1 portfolio release, the final manual/browser smoke covered:
+For the v1.0.2 portfolio release, the final manual/browser smoke covered:
 
 ```text
 / -> /products?factory=APPLE -> /product/1 -> /cart -> /checkout

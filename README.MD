@@ -203,6 +203,6 @@ docs/screenshots        portfolio screenshots and GitHub assets
 
 ## Release Status
 
-Current target release: **v1.0.1 Portfolio Polish**.
+Current target release: **v1.0.2 Visual Portfolio Polish**.
 
 The app is intended for GitHub portfolio review, recruiter demos, and local technical evaluation. Wishlist and payment gateway behavior are intentionally scoped for portfolio use, not production commerce.

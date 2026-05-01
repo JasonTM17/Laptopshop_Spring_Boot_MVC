@@ -12,7 +12,7 @@ Use this when preparing Laptopshop for GitHub, LinkedIn, or a live demo.
 - Pin the demo accounts in the README and installation guide.
 - Link `RELEASE_NOTES.md`, `docs/ABOUT.md`, `docs/REVIEWER_GUIDE.md`, `docs/FEATURE_MATRIX.md`, and `docs/GITHUB_REPO_SETUP.md` from the README.
 - Fill GitHub About with the short description from `docs/GITHUB_REPO_SETUP.md`.
-- Publish the `v1.0.1` source release using `docs/GITHUB_REPO_SETUP.md`.
+- Publish the `v1.0.2` source release using `docs/GITHUB_REPO_SETUP.md`.
 - Confirm the GHCR package is published from `.github/workflows/container.yml`.
 - Protect `master` with the lightweight status-check rule from `docs/GITHUB_REPO_SETUP.md`.
 - Link a live demo only after production env vars are configured.

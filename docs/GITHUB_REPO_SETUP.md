@@ -65,17 +65,17 @@ Create the public source release from the latest portfolio polish commit.
 
 | Field | Value |
 | --- | --- |
-| Tag | `v1.0.1` |
-| Title | `Laptopshop v1.0.1 Portfolio Polish` |
+| Tag | `v1.0.2` |
+| Title | `Laptopshop v1.0.2 Visual Portfolio Polish` |
 | Target | Latest `master` commit after README/docs/GitHub polish |
 | Assets | GitHub source zip/tar only |
 
 Release body:
 
 ```markdown
-## Laptopshop v1.0.1 Portfolio Polish
+## Laptopshop v1.0.2 Visual Portfolio Polish
 
-This release polishes Laptopshop as a recruiter-first Spring Boot MVC portfolio: cleaner GitHub presentation, safer README hero, concise repo metadata, protected default branch, and updated source release.
+This release polishes Laptopshop as a recruiter-first Spring Boot MVC portfolio: cleaner GitHub presentation, imagegen-based README/social visuals with deterministic typography, concise repo metadata, protected default branch, GHCR package, and updated source release.
 
 ### Highlights
 
@@ -107,7 +107,7 @@ This release polishes Laptopshop as a recruiter-first Spring Boot MVC portfolio:
 - Topics render in the intended recruiter-friendly order.
 - Website field is blank.
 - Branch protection warning is gone.
-- Latest release is `Laptopshop v1.0.1 Portfolio Polish`.
+- Latest release is `Laptopshop v1.0.2 Visual Portfolio Polish`.
 - GitHub Packages shows the `laptopshop-spring-boot-mvc` container package.
 - README hero is not clipped in GitHub dark or light mode.
 - README screenshot gallery loads without broken images.
@@ -137,5 +137,5 @@ gh repo edit JasonTM17/laptopshop-spring-boot-mvc `
   --add-topic h2-database `
   --add-topic jstl
 
-gh release create v1.0.1 --title "Laptopshop v1.0.1 Portfolio Polish" --notes-file RELEASE_NOTES.md
+gh release create v1.0.2 --title "Laptopshop v1.0.2 Visual Portfolio Polish" --notes-file RELEASE_NOTES.md
 ```
