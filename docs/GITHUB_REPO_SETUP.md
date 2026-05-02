@@ -109,7 +109,8 @@ This release polishes Laptopshop as a recruiter-first Spring Boot MVC portfolio:
 - Website field is blank.
 - Branch protection warning is gone.
 - Latest release is `Laptopshop v1.0.2 Visual Portfolio Polish`.
-- GitHub Packages shows the `laptopshop-spring-boot-mvc` container package.
+- Docker Hub shows the `nguyenson1710/laptopshop-spring-boot-mvc` container image.
+- GitHub Packages should not be used for this project; remove any old GitHub-hosted container package if it appears.
 - README hero is not clipped in GitHub dark or light mode.
 - README screenshot gallery loads without broken images.
 - Social preview image is uploaded in repository settings from `docs/screenshots/github-social-preview.jpg`.
